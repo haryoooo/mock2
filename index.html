@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exam - Fundamental 2</title>
+</head>
+<body>
+
+    <!-- No 1 -->
+
+    <h2>Nomor 1</h2>
+
+        <input type="button" value="Type 1" id="type1" onclick="type1()">
+        <input type="button" value="Type 2" id="type2" onclick="type2()">
+
+        <p id="result"></p>
+
+        <hr>
+
+    <!-- No 2 -->
+
+    <h2>Nomor 2</h2>
+
+        <h1>Kegiatan Selama Pandemi</h1>
+
+        <table>
+
+            <tr>
+                <td></td>
+                <td><input type="date" name="" id="dateValue"></td>
+                <td><input type="time" name="" id="timeValue"></td>
+                <td><input type="text" name="" id="textValue"></td>
+                <td><input type="url" name="" id="imageUrl"></td>
+                <td><input type="button" value="Tambah" id="addButton" onclick="addData()"></td>
+            </tr>
+
+            <tr>
+                <th>No.</th>
+                <th>Tanggal</th>
+                <th>Jam</th>
+                <th>Kegiatan</th>
+                <th>Lokasi</th>
+                <th>Setting</th>
+            </tr>
+
+            <tbody id="resultValue"></tbody>
+                <tr>
+
+
+                </tr>
+
+
+                
+        </table>
+
+        <br>
+
+        <hr>
+
+    <!-- Nomor 3 -->
+
+    <h2>Nomor 3</h2>
+
+    <form>
+        <label for="lname">Masukkan Kalimat</label><br><br>
+        <input type="text" id="textValue"><br><br>
+        <input type="submit" value="OK"> <input type="submit" value="Cancel">
+    </form>
+
+
+    <form id="result">
+
+        
+    </form>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
